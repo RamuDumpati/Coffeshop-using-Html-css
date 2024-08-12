@@ -1,0 +1,221 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+.container{
+    height: 120vh;
+    width: 100%;
+    background: url("img-20240807T141308Z-001/img/pexels-mic-oller-2959176-4496857.jpg") ;
+    background-size: cover;
+    background-position: center;
+}
+.nav-bar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 80px;
+}
+.nav-bar .title{
+    color: #fff;
+    font-size: 67px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.nav-bar p{
+    position: absolute;
+    margin-top: 90px;
+    margin-left: 50px;
+    color: #fff;
+    font-weight: 400;
+    font-size: 20px;
+}
+span{
+    color: crimson;
+}
+.menu li{
+    list-style: none;
+    display: inline-block;
+}
+.menu li a{
+    text-decoration: none;
+    color: #f7f5f5;
+    font-size: 27px;
+    margin-left: 25px;
+    font-weight: 600;
+    transition: .4s ease;
+}
+.menu li a:hover{
+    color: crimson;
+    padding: 5px 10px;
+    border: 2px solid #fff;
+}
+.home{
+    cursor: pointer;
+    height: 400px;
+    padding: 70px;
+}
+.title-1{
+    font-size: 58px;
+    color: #fff;
+    font-weight: 600;
+}
+.home p{
+    color: lemonchiffon;
+    font-size: 20px;
+    padding-top: 10px;
+}
+.home button{
+    height: 40px;
+    color: #fff;
+    background: crimson;
+    padding: 5px 30px;
+    margin-top: 22px;
+    border: none;
+    border-radius: 5px;
+    transition: .4s ease;
+    cursor: pointer;
+}
+.home button:hover{
+    background: none;
+    border: 2px solid crimson;
+
+}
+.home{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0,0,0,0.7);
+    flex-direction: column;
+    width: 100%;
+    height: 300px;
+    margin-top: 100px;
+
+}
+
+.footer-container{
+    /* background-color: rgba(214, 135, 31, 0.527); */
+     /* display: flex; */
+   
+  
+}
+.social-icons{
+    display: flex;
+    margin: 13px;
+    justify-content: center;
+    margin: 90px;
+ }
+ 
+ .social-icons a{
+    text-decoration: none;
+    padding: 10px;
+    background-color: rgb(163, 98, 98);
+    margin: 10px ;
+    border-radius: 50%;
+
+ }
+ .social-icons a i{
+       font-size: 2rem;
+       color: rgb(37, 4, 4);
+       opacity: 0.9;
+       
+ }
+ .social-icons a:hover{
+    background-color: #111;
+    transition: 0.5s;
+ }
+ .social-icons a i:hover{
+    color: white;
+    transition: 0.5s;
+ }
+.footer-bottom{
+        color: rgb(227, 24, 24);
+         /* padding: 0px; */
+         text-align: center;
+         font-size: 30px;
+         font-weight: bolder;   
+        margin: 20px;
+     cursor: pointer;
+       
+      }
+@media (max-width:768px) {
+    .nav-bar{
+        display: flex;
+      flex-direction: column;
+      height: 300px;
+      
+    }
+   
+    .menu li{
+       
+       display: flex;
+       flex-direction: column;
+    }
+    .nav-bar .title{
+        color: #fff;
+        font-size: 50px;
+        font-weight: 600;
+        cursor: pointer;
+    }
+    .nav-bar p{
+        position: absolute;
+        margin-top: 50px;
+        margin-left: 50px;
+        color: #fff;
+        font-weight: 400;
+        font-size: 20px;
+    }
+    .home{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: rgba(0,0,0,0.7);
+        flex-direction: column;
+        width: 100%;
+        height: 300px;
+        margin-top: 50px;
+    
+    }
+    .title-1{
+        font-size: 40px;
+        color: #fff;
+        font-weight: 600;
+    }
+    .home p{
+        color: lemonchiffon;
+        font-size: 10px;
+        padding-top: 10px;
+    }
+    .home button{
+        height: 30px;
+        color: #fff;
+        background: crimson;
+        padding: 5px 30px;
+        margin-top: 22px;
+        border: none;
+        border-radius: 5px;
+        transition: .4s ease;
+        cursor: pointer;
+    }
+    .social-icons{
+        display: flex;
+         flex-direction: column;
+        align-items: center;
+       
+           
+        }
+        .social-icons a{
+         /* display: flex; */
+        
+        
+        }
+       
+       .footer-container{
+          height: auto;     
+   
+    }
+    .container{
+      height: auto;
+    }
+}
